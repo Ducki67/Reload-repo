@@ -9,4 +9,4 @@ This repository is *PRIVATE*, meaning none of the information inside of it shoul
 
 ### Sources
 Reload backend | ***https://github.com/Project-Reload/Reload-Backend***
-Lawin Server V: 1, 2, 3, | [LawinV1]() [LawinV2]() [LawinV3](https://github.com/AlienDenis12/LawinServerV3)
+Lawin Server V: 1, 2, 3, | [LawinV1](https://github.com/Lawin0129/LawinServer) [LawinV2](https://github.com/Lawin0129/LawinServerV2) [LawinV3](https://github.com/AlienDenis12/LawinServerV3)

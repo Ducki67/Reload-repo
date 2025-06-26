@@ -11,3 +11,24 @@ This repository is *PRIVATE*, meaning none of the information inside of it shoul
 Reload backend | ***https://github.com/Project-Reload/Reload-Backend***
 
 Lawin Server V: 1, 2, 3, | [LawinV1](https://github.com/Lawin0129/LawinServer) [LawinV2](https://github.com/Lawin0129/LawinServerV2) [LawinV3](https://github.com/AlienDenis12/LawinServerV3)
+
+
+## Note
+
+Some these files can be found in other Repositories but i converted them  into `.Js` so you can use them in th backends since they are written in Javascript.
+
+
+**How to setup multiple gameservers**
+1. - Go to Config/config.json in the directory you extracted Reload Backend into.
+2. - Open it, you should see a "gameServerIP" section in the file.
+3. - To add more gameservers you will have to do it like this
+
+>***Example here:*** 
+>
+>- `"gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo","127.0.0.1:7777:playlist_defaultduo"],` 
+>
+>  **OR** (for other backends) 
+>- `"gameServerIP": ["Your-IP:MM-Port:Your-FN-Playlist-Id-here","Your-IP:MM-Port:Your-FN-Playlist-Id-here"],`
+
+
+4. - You have now added solos and duos to your matchmaking.

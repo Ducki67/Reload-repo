@@ -277,8 +277,8 @@
 
 [/Script/EngineSettings.GeneralProjectSettings]
 ProjectID=(A=-2011270876,B=1182903154,C=-965786730,D=-1399474123)
-ProjectName=Ralzify
-ProjectDisplayedTitle=NSLOCTEXT("", "FortniteMainWindowTitle", "Ralzify")
+ProjectName=Ducki6700
+ProjectDisplayedTitle=NSLOCTEXT("", "FortniteMainWindowTitle", "Ducki6700")
 ProjectVersion=1.0.0
 
 - Double Pump for everyone without using DataTables (NOTE: Put in DefaultEngine.ini)

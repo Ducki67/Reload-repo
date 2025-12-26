@@ -3,6 +3,28 @@
 - Then, at the bottom of the file, make a new row (enter key the text down), and paste "[AssetHotfix]". 
 - Go one more row down, and paste any of the below datatables.
 
+
+# Double Pump
+;[ConsoleVariables] 
+;Weapon.TryToFireRestrictedByTypeCooldowns=0
+
+# Fix Movement on 27+ // cedits to Ralz
+[ConsoleVariables]
+Fort.MME.TacticalSprint=0
+Fort.MME.Hurdle=0
+Fort.MME.Sliding=0
+Fort.MME.Clambering=0
+
+# Infinite Render (26.00+) // cedits to Ralz
+;[/Script/IrisCore.ObjectReplicationBridgeConfig]
+;+FilterConfigs=(ClassName=/Script/Engine.Pawn, DynamicFilterName=None, FilterProfile=None)
+;+FilterConfigs=(ClassName=/Script/FortniteGame.FortPawn, DynamicFilterName=None, FilterProfile=None)
+;+FilterConfigs=(ClassName=/Script/FortniteGame.FortPlayerPawn, DynamicFilterName=None, FilterProfile=None)
+;+FilterConfigs=(ClassName=/Script/FortniteGame.FortPlayerPawnAthena, DynamicFilterName=None, FilterProfile=None)
+;+FilterConfigs=(ClassName=/Script/FortniteGame.FortInventory, DynamicFilterName=None)
+;+FilterConfigs=(ClassName=/Script/FortniteGame.FortBroadcastRemoteClientInfo, DynamicFilterName=None)
+
+
 # Data Tables
 
 - STRAIGHT BLOOM FOR ALL SNIPERS:

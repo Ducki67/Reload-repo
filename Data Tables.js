@@ -33,7 +33,9 @@ Fort.MME.Clambering=0
 ;+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.DBNO.BleedDamage;0;0
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.SafeZone.Damage;0;0
 +CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sand.Enabled;0;0
+  
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Adventure_Special_HookGun_Athena_SR_Ore_T03;FiringRate;1.0
+  
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0

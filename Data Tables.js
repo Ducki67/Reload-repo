@@ -26,16 +26,10 @@ Fort.MME.Clambering=0
 
 
 
-# Fixes fro Shotgun Kock Backs V2   (Credits to Ralz)
+# Fixes for Shotgun Knock Backs V2   (Credits to Ralz)
+# I also spaced out the shotguns so cou can okow wich one is which kinda +  if i have missed a rarity u can add it -ducki67 
 [AssetHotfix]
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.PetrolPickup.FuseTime.Min;0;99999999999998
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.PetrolPickup.FuseTime.Max;0;99999999999999
-;+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.DBNO.BleedDamage;0;0
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.SafeZone.Damage;0;0
-+CurveTable=/Game/Athena/Balance/DataTables/AthenaGameData;RowUpdate;Default.Sand.Enabled;0;0
-  
-+DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Adventure_Special_HookGun_Athena_SR_Ore_T03;FiringRate;1.0
-  
+# spaz
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -71,6 +65,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Standard_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Striker pump (ch3)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -106,6 +102,15 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Pump_Striker_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# idk
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -141,6 +146,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Automatic_Core_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Charge shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -176,6 +183,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_VR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_VR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Charge_Athena_VR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Heavy shotty (ch1)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_VR_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_VR_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_VR_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -190,6 +199,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SlugFire_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Heavy shotty (ch3 1 bullet)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -225,6 +236,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Heavy_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Tac shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -260,6 +273,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_SemiAuto_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Combat shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_UC_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_UC_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_UC_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -288,6 +303,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Combat_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Drangon's Breath
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_VR_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_VR_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_VR_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -302,6 +319,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Dragon_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Ranger shotty (IDFK DUDE)
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_VR_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_VR_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_VR_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -316,6 +335,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Break_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Drum shotgun +  the Ch4s3 Epic, gold, Mythic 
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -337,6 +358,29 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_R_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_R_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_R_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_VR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_AutoDrum_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Lever shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -372,6 +416,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Swing_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Double Barrel
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -399,7 +445,7 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_VR_Ore_T03;KnockbackZAngle;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_VR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_VR_Ore_T03;MidRangeHitImpulseMagnitude;0
-+DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_VR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_VR_Ore_T03;LongRangeHitImpulseMagnitude;
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -407,6 +453,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_BreakAction_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Two Shot shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -442,6 +490,15 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UROre_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_TwoShot_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Prime Shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -477,6 +534,14 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Overload_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Evocrome Shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -512,6 +577,15 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Chrome_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Thunder shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -547,6 +621,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Pump_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Maven Auto shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -582,6 +658,8 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Muster_Auto_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
+
+# Havoc shotty
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_C_Ore_T03;KnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_C_Ore_T03;MidRangeKnockbackMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_C_Ore_T03;LongRangeKnockbackMagnitude;0
@@ -617,6 +695,13 @@ Fort.MME.Clambering=0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_SR_Ore_T03;ShortRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_SR_Ore_T03;MidRangeHitImpulseMagnitude;0
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_SR_Ore_T03;LongRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;KnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;MidRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;LongRangeKnockbackMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;KnockbackZAngle;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;ShortRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;MidRangeHitImpulseMagnitude;0
++DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Shotgun_Radical_Pump_Athena_UR_Ore_T03;LongRangeHitImpulseMagnitude;0
 
 
 # Data Tables

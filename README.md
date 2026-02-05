@@ -35,3 +35,14 @@ Some these files can be found in other Repositories but i converted them  into `
 
 
 4. - You have now added solos and duos to your matchmaking.
+
+
+**How to enable / Show arena playlist on 24.30+**
+
+1. **Code Arena to your backend**
+
+you need to have EventListActive and the Lobby Scorring UI
+
+2. **The playlist and Discovery setup**
+
+soon 

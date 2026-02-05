@@ -3,7 +3,7 @@
 - Then, at the bottom of the file, make a new row (enter key the text down), and paste "[AssetHotfix]". 
 - Go one more row down, and paste any of the below datatables.
 
-
+```ini
 # Double Pump
 ;[ConsoleVariables] 
 ;Weapon.TryToFireRestrictedByTypeCooldowns=0
@@ -1046,3 +1046,4 @@ Fort.MME.Clambering=0
 
 - FIX SKYE'S GRAPPLE SHOOTING DELAY:
 +DataTable=/Game/Athena/Items/Weapons/AthenaRangedWeapons;RowUpdate;Adventure_Special_HookGun_Athena_SR_Ore_T03;FiringRate;1.0
+```9

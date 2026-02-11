@@ -239,6 +239,15 @@ function getContentPages(req) {
         }
 
         // Chapter 4 Season 4
+        /*
+        Lobby1
+        Season: 26
+        Build: 26.3
+        CL: 28688692
+        Lobby: LobbySeason26
+
+        Lobb2 -
+        */
         if (memory.season == 26) {
             if (memory.build==26.00)
             {

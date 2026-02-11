@@ -22,6 +22,8 @@ Some these files can be found in other Repositories but i converted them  into `
 
 
 **How to setup multiple gameservers**
+<details>
+
 1. - Go to Config/config.json in the directory you extracted Reload Backend into.
 2. - Open it, you should see a "gameServerIP" section in the file.
 3. - To add more gameservers you will have to do it like this
@@ -36,13 +38,17 @@ Some these files can be found in other Repositories but i converted them  into `
 
 4. - You have now added solos and duos to your matchmaking.
 
+</details>
 
 **How to enable / Show arena playlist on 24.30+**
-
+<details>
+  
 1. **Code Arena to your backend**
 
 you need to have EventListActive and the Lobby Scorring UI
 
 2. **The playlist and Discovery setup**
 
-soon 
+Later skiddas cuz i have a life to deal with :)
+
+</details>

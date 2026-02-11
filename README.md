@@ -45,7 +45,9 @@ Some these files can be found in other Repositories but i converted them  into `
   
 1. **Code Arena to your backend**
 
-you need to have EventListActive and the Lobby Scorring UI
+- You need to have EventListActive and the Lobby Scorring UI
+- Also need to have the ability to SAVE,RECALL/LOAD Points and get Discovery working for the playlist.
+- [Here's a shitty but Lobby Scorring UI working for Reload backend](https://github.com/Ducki67/Reload-repo/tree/main/arena%20stuffs%20for%20reload%20backend%20(s24)) **(This doesnt have Saving Or Recalling points for DBs btw i will Not give u that for free / figure it out on ur own)**
 
 2. **The playlist and Discovery setup**
 

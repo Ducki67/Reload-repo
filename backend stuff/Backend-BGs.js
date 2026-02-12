@@ -321,16 +321,23 @@ function getContentPages(req) {
             contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "rufus";
         }
 
-         /*TODO  Season28 + S29 */
-         if (memory.season == 28) {
+        // Chapter 5 Season 1
+        if (memory.season == 28) {
         
 
-            if (memory.build == 28.00) {
+            if (memory.build == 28.00 && memory.CL == 29915848) {
         
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/ch5s1-lobbybg-3640x2048-0974e0c3333c.jpg"
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2800";
             }
 
             if (memory.build == 28.01) {
-        
+               
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/winterfest2023-lobby-2048x1024-a8853c3a6f59.jpg"
+                //contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "winterfest2023"; // maybe
+                //contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2801";  // maybe bru
             }
 
             if (memory.build == 28.10) {
@@ -338,14 +345,54 @@ function getContentPages(req) {
             }
         
             if (memory.build == 28.20) {
-        
+
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/s28-tmnt-lobby-4096x2048-e6c06a310c05.jpg"
+                //contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "tmnt"; // maybe
+                //contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2820";
             }
 
-            if (memory.build == 28.30) {
+            if (memory.build == 28.30 && memory.CL == 31511038) {
         
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/ch5s1-lobbybg-3640x2048-0974e0c3333c.jpg"
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2800";
             }
         
         }
+
+        // Chapter 5 Season 2
+        if (memory.season == 29) {
+            
+            // 29.00-CL-32116959:
+            if (memory.build == 29.00 && memory.CL == 32116959) {
+            
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/br-lobby-ch5s2-4096x2304-a0879ccdaafc.jpg"
+            }
+
+            if (memory.build == 29.40) {
+
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/mkart-2940-sw-fnbr-lobby-3840x2160-4f1f1486a54a.jpg"
+            }
+
+        }
+
+        /*
+        // Chapter 5 Season 3 (fuck this i will not add ut skiddas)
+        if (memory.season == 30) {
+            
+           
+            if (memory.build == 30.00 && memory.CL == 33962396) {
+            
+
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/lobby-br-c5s3-4096x2048-7a9c78cb7b9a.jpg"
+
+            }
+
+        }*/
 
 
     } catch {}

@@ -269,7 +269,83 @@ function getContentPages(req) {
             contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "rufus";
         }
 
+         // Capter 4 Season 4
+        if (memory.season == 26) {
+
+            if (memory.build == 26.00) {
+            contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+            contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season26";
+            }
+            if (memory.build == 26.10) {
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season26";
+            }
+            if (memory.build == 26.20) {
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season26";
+            }
+
+            // 26.30-CL-28509302:
+            if (memory.build == 26.30 && memory.CL == 28509302) {
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/s26-lobby-timemachine-final-2560x1440-a3ce0018e3fa.jpg"
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2630";
+
+            }
+
+            // 26.30-CL-28688692:
+            if (memory.build == 26.30 && memory.CL == 28688692) {
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/s26-lobby-timemachine-final-2560x1440-a3ce0018e3fa.jpg"
+                contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season2630";
+                
+            }
+        }
+        
+        // Chapter 4 Season OG / Ch4 S5
+        if (memory.season == 27) {
+
+            /*  // maybe need to add more builds here like since s27 has 3 versions and all the same shit kinda :)
+            if (memory.season == 27.00){
+            
+            }
+            if (memory.season == 27.10){
+            
+            }
+            if (memory.season == 27.11){
+        
+            }
+            */
+
+            contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "defaultnotris";
+            contentpages.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "rufus";
+        }
+
          /*TODO  Season28 + S29 */
+         if (memory.season == 28) {
+        
+
+            if (memory.build == 28.00) {
+        
+            }
+
+            if (memory.build == 28.01) {
+        
+            }
+
+            if (memory.build == 28.10) {
+        
+            }
+        
+            if (memory.build == 28.20) {
+        
+            }
+
+            if (memory.build == 28.30) {
+        
+            }
+        
+        }
 
 
     } catch {}

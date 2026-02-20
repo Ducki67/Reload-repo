@@ -38,6 +38,22 @@ Some these files can be found in other Repositories but i converted them  into `
 
 4. - You have now added solos and duos to your matchmaking.
 
+**Quick note:**
+
+Fortnite Gameservers use port 7777 or 7778 this is by default by its Engine and Structure so if you wat to do multiple gameservers u could use diffrent ports of these.
+
+**E.g.:** 
+
+Solo playlist is Ip:127.0.0.1 and Port:7777 
+
+Duo playlist is Ip:127.0.0.1 and Port:7778
+
+Code:
+```json
+"gameServerIP": ["127.0.0.1:7777:playlist_defaultsolo","127.0.0.1:7778:playlist_defaultduo"], 
+```
+
+I recomend to do Port 7777 for Solo type gamemodes and Creative and use Port 7778 for Team modes like Teamrumble, Duos, Squads etc.
 </details>
 
 **How to enable / Show arena playlist on 24.30+**

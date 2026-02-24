@@ -7,8 +7,9 @@ My personal tweaks and settings for Reload backend
 This repository is *PRIVATE*, meaning none of the information inside of it should be shared. You will be kicked off the Github if you do. (also no forking)**
 
 ### Some credits and help/support <3
-- Rlaz (for most of shotgun knock backs fix and movement fixes)
-
+- [**Rlazify**](https://github.com/Ralzify) (for most of shotgun knock backs fix and movement fixes)
+- [**Razer**](https://github.com/Razer) (for Ch4 MM ini file fix)
+- **Alby** (for Arena points Fetches in ini files)
 
 ### Sources
 Reload backend | ***https://github.com/Project-Reload/Reload-Backend***

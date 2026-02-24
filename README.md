@@ -8,7 +8,7 @@ This repository is *PRIVATE*, meaning none of the information inside of it shoul
 
 ### Some credits and help/support <3
 - [**Rlazify**](https://github.com/Ralzify) (for most of shotgun knock backs fix and movement fixes)
-- [**Razer**](https://github.com/Razer) (for Ch4 MM ini file fix)
+- [**Razer**](https://github.com/RazerFrFr) (for Ch4 MM ini file fix)
 - **Alby** (for Arena points Fetches in ini files)
 
 ### Sources
